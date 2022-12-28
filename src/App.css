@@ -1,0 +1,300 @@
+.container {
+  width: 100%;
+}
+.header {
+  width: 90%;
+  height: 100px;
+  background-color: #c2c2c2;
+  margin: auto;
+  margin-top: 30px;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: -0.1rem;
+  font-weight: bolder;
+  border-radius: 10px;
+}
+
+.textInput {
+  margin: auto;
+  width: 90%;
+  margin-top: 30px;
+  background-color: #ffffff;
+}
+
+.toDotext {
+  border: 0;
+  width: 90%;
+  height: 100px;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.toDotext:focus{
+  outline-width: 0;
+}
+
+.btn-addToList{
+  width: 100%;
+  border: 0;
+  height: 40px;
+  font-size: 15px;
+  font-weight: bolder;
+  background-color: #e2b714;
+  cursor: pointer;
+}
+.btn-addToList:hover {
+  background-color: #cca413;
+  transition: 0.3s;
+}
+.details {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.inToDoList {
+  width: 33%;
+  height: 400px;
+  background-color: #c2c2c2;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.inToDoListHeader {
+  width: 100%;
+  height: 50px;
+  margin: auto;
+  background-color: #41413f;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inToDoListBody {
+  width: 100%;
+  height: calc(100% - 50px);
+  background-color: transparent;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.removedFromtoDo {
+  width: 33%;
+  height: 400px;
+  background-color: #c2c2c2;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.removedFromToDoHeader{
+  width: 100%;
+  height: 50px;
+  margin: auto;
+  background-color: #41413f;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.removedFromToDoBody {
+  width: 100%;
+  height: calc(100% - 50px);
+  background-color: transparent;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.toDoListTask {
+  background-color: #eeeeee;
+  max-width: 95%;
+  min-height: 100px;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.toDoListText{
+  padding: 15px;
+  padding-top: 0;
+}
+
+.delete{
+  width: 100%;
+  height: 30px;
+  background-color: transparent;
+}
+.close-icon{
+  font-size: 10px;
+}
+.close-right {
+  float: right;
+  margin-right: 5px;
+  background-color: red;
+  margin-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 1px;
+  border: 1px solid black;
+  color: black;
+  cursor: pointer;
+}
+
+.restore-right {
+  float: right;
+  margin-right: 5px;
+  background-color: rgb(29, 230, 29);
+  margin-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 1px;
+  border: 1px solid black;
+  color: black;
+  cursor: pointer;
+}
+
+
+.toDoListRemoveTask{
+  background-color: #eeeeee;
+  max-width: 95%;
+  min-height: 100px;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.restore {
+  width: 100%;
+  height: 30px;
+  background-color: transparent;
+}
+
+.restore-icon {
+  font-size: 10px;
+}
+
+.toDoListRemoveText{
+  padding: 15px;
+  padding-top: 0;
+}
+
+.CompltedTasks {
+  width: 33%;
+  height: 400px;
+  background-color: #c2c2c2;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.CompletedFromToDoHeader {
+  width: 100%;
+  height: 50px;
+  margin: auto;
+  background-color: #41413f;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+.CompletedFromToDoBody {
+  width: 100%;
+  height: calc(100% - 50px);
+  background-color: transparent;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.toDoListCompletedTask{
+  background-color: #eeeeee;
+  max-width: 95%;
+  min-height: 100px;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.toDoListCompletedText {
+  padding: 15px;
+  padding-top: 0;
+}
+
+.btn-icons {
+  display: flex;
+}
+
+.complete {
+  height: 30px;
+  background-color: transparent;
+}
+
+.complete-right {
+  float: right;
+  margin-right: 5px;
+  background-color: green;
+  margin-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 1px;
+  border: 1px solid black;
+  color: black;
+  cursor: pointer;
+}
+
+.complete-icon {
+  font-size: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #c2c2c2;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #444;
+  border-radius: 50px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.PermenantDelete {
+  width: 100%;
+  height: 30px;
+  background-color: transparent;
+}
+
+.permanantDelete-icon {
+  font-size: 10px;
+}
+
+.permanantDelete-right {
+  float: right;
+  margin-right: 5px;
+  background-color: #cca413;
+  margin-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 1px;
+  border: 1px solid black;
+  color: black;
+  cursor: pointer;
+}
+
+.toDoListDeletedText {
+  padding: 15px;
+  padding-top: 0;
+}
